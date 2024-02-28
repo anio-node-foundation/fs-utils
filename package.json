@@ -1,0 +1,25 @@
+{
+  "name": "@anio-js-foundation/node-fs-utils-sync",
+  "version": "1.0.0",
+  "description": "Node filesystem utilities.",
+  "main": "./dist/package.mjs",
+  "author": "Anio Software <info@anio-software.de>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anio-js-foundation/node-fs-utils-sync.git"
+  },
+  "devDependencies": {
+    "@anio-js-core-foundation/node-fs-get-path-type-sync": "^1.0.0",
+    "@anio-js-foundation/bundle-package": "^3.1.2",
+    "@anio-js-foundation/node-fs-copy-sync": "^1.0.0",
+    "@anio-js-foundation/node-fs-hash-file-sync": "^1.0.0",
+    "@anio-js-foundation/node-fs-remove-sync": "^1.0.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/bundle-package ."
+  },
+  "files": [
+    "./dist/package.mjs"
+  ]
+}
