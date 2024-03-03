@@ -3,3 +3,4 @@
 /package-lock.json
 /dist/*
 !/dist/.gitkeep
+/examples/dest/
