@@ -8,6 +8,7 @@ import isRegularDirectory from "./methods/isRegularDirectory.mjs"
 import isRegularFile from "./methods/isRegularFile.mjs"
 import isSymbolicLink from "./methods/isSymbolicLink.mjs"
 import remove from "./methods/remove.mjs"
+import writeAtomicFile from "./methods/writeAtomicFile.mjs"
 
 export default {
     copy,
@@ -19,4 +20,5 @@ export default {
     isRegularFile,
     isSymbolicLink,
     remove,
+    writeAtomicFile,
 }
