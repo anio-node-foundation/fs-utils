@@ -1,6 +1,6 @@
 {
   "name": "@anio-node-foundation/fs-utils",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Various filesystem utilities, both async and sync.",
   "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
