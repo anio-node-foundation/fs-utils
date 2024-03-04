@@ -14,6 +14,7 @@
     "@anio-node-foundation/fs-get-path-type": "^1.0.1",
     "@anio-node-foundation/fs-hash-file": "^2.0.0",
     "@anio-node-foundation/fs-remove": "^2.0.0",
+    "@anio-node-foundation/fs-write-atomic-file": "^1.0.0",
     "@anio-software/npm-package-bundler": "^1.0.0"
   },
   "scripts": {
