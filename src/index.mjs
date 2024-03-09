@@ -1,14 +1,25 @@
 /* warning: this file was automatically generated */
-import copy from "./methods/copy.mjs"
-import generateTemporaryPathName from "./methods/generateTemporaryPathName.mjs"
-import hashFile from "./methods/hashFile.mjs"
-import isDirectory from "./methods/isDirectory.mjs"
-import isFile from "./methods/isFile.mjs"
-import isRegularDirectory from "./methods/isRegularDirectory.mjs"
-import isRegularFile from "./methods/isRegularFile.mjs"
-import isSymbolicLink from "./methods/isSymbolicLink.mjs"
-import remove from "./methods/remove.mjs"
-import writeAtomicFile from "./methods/writeAtomicFile.mjs"
+import copy_impl from "./methods/copy.mjs"
+import generateTemporaryPathName_impl from "./methods/generateTemporaryPathName.mjs"
+import hashFile_impl from "./methods/hashFile.mjs"
+import isDirectory_impl from "./methods/isDirectory.mjs"
+import isFile_impl from "./methods/isFile.mjs"
+import isRegularDirectory_impl from "./methods/isRegularDirectory.mjs"
+import isRegularFile_impl from "./methods/isRegularFile.mjs"
+import isSymbolicLink_impl from "./methods/isSymbolicLink.mjs"
+import remove_impl from "./methods/remove.mjs"
+import writeAtomicFile_impl from "./methods/writeAtomicFile.mjs"
+
+export const copy = copy_impl;
+export const generateTemporaryPathName = generateTemporaryPathName_impl;
+export const hashFile = hashFile_impl;
+export const isDirectory = isDirectory_impl;
+export const isFile = isFile_impl;
+export const isRegularDirectory = isRegularDirectory_impl;
+export const isRegularFile = isRegularFile_impl;
+export const isSymbolicLink = isSymbolicLink_impl;
+export const remove = remove_impl;
+export const writeAtomicFile = writeAtomicFile_impl;
 
 export default {
     copy,
