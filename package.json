@@ -2,7 +2,7 @@
   "name": "@anio-node-foundation/fs-utils",
   "version": "2.2.0",
   "description": "Various filesystem utilities, both async and sync.",
-  "main": "./dist/package.mjs",
+  "main": "./build/package.mjs",
   "author": "Anio Software <info@anio.software>",
   "license": "MIT",
   "repository": {
@@ -15,12 +15,13 @@
     "@anio-node-foundation/fs-hash-file": "^3.0.0",
     "@anio-node-foundation/fs-remove": "^3.0.0",
     "@anio-node-foundation/fs-write-atomic-file": "^2.0.0",
-    "@anio-software/npm-package-bundler": "^1.0.0"
+    "@vipen/target-js": "^0.7.0",
+    "vipen": "^0.1.0"
   },
   "scripts": {
-    "prepare": "node generateIndexFile.mjs && ./node_modules/.bin/npm-package-bundler ."
+    "prepare": "./node_modules/.bin/vipen ."
   },
   "files": [
-    "./dist/package.mjs"
+    "./build/package.mjs"
   ]
 }
