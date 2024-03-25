@@ -10,11 +10,11 @@
     "url": "git+https://github.com/anio-node-foundation/fs-utils.git"
   },
   "devDependencies": {
-    "@anio-node-foundation/fs-copy": "^2.0.1",
-    "@anio-node-foundation/fs-get-path-type": "^1.0.1",
-    "@anio-node-foundation/fs-hash-file": "^2.0.0",
-    "@anio-node-foundation/fs-remove": "^2.0.0",
-    "@anio-node-foundation/fs-write-atomic-file": "^1.0.0",
+    "@anio-node-foundation/fs-copy": "^3.0.0",
+    "@anio-node-foundation/fs-get-path-type": "^2.0.0",
+    "@anio-node-foundation/fs-hash-file": "^3.0.0",
+    "@anio-node-foundation/fs-remove": "^3.0.0",
+    "@anio-node-foundation/fs-write-atomic-file": "^2.0.0",
     "@anio-software/npm-package-bundler": "^1.0.0"
   },
   "scripts": {
