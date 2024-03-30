@@ -4,6 +4,7 @@
   "description": "Various filesystem utilities, both async and sync.",
   "main": "./build/package.mjs",
   "author": "Anio Software <info@anio.software>",
+  "typings": "./_types/index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "prepare": "./node_modules/.bin/vipen ."
   },
   "files": [
-    "./build/package.mjs"
+    "./build/package.mjs",
+    "./_types/"
   ]
 }
