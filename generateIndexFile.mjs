@@ -6,6 +6,10 @@ export default function() {
 		const methods_files = await fs.readdir(path.join(context.root, "src", "methods"))
 		const methods = methods_files.map(file => file.slice(0, file.length - 4))
 
+		methods.sort((a, b) => {
+			return a.localeCompare(b, "en")
+		})
+
 		let methods_index_file = `/* warning: this file was automatically generated */\n`
 
 		for (const method of methods) {
