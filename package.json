@@ -14,7 +14,7 @@
     "@anio-node-foundation/fs-get-path-type": "^2.0.0",
     "@anio-node-foundation/fs-hash-file": "^3.0.0",
     "@anio-node-foundation/fs-remove": "^3.0.0",
-    "@anio-node-foundation/fs-write-atomic-file": "^2.0.0",
+    "@anio-node-foundation/fs-write-atomic-file": "^2.1.0",
     "@vipen/target-js": "^0.7.0",
     "vipen": "^0.1.0"
   },
