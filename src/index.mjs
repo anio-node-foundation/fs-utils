@@ -1,4 +1,5 @@
 /* warning: this file was automatically generated */
+import clean_impl from "./methods/clean.mjs"
 import copy_impl from "./methods/copy.mjs"
 import generateTemporaryPathName_impl from "./methods/generateTemporaryPathName.mjs"
 import hashFile_impl from "./methods/hashFile.mjs"
@@ -10,6 +11,7 @@ import isSymbolicLink_impl from "./methods/isSymbolicLink.mjs"
 import remove_impl from "./methods/remove.mjs"
 import writeAtomicFile_impl from "./methods/writeAtomicFile.mjs"
 
+export const clean = clean_impl;
 export const copy = copy_impl;
 export const generateTemporaryPathName = generateTemporaryPathName_impl;
 export const hashFile = hashFile_impl;
@@ -22,6 +24,7 @@ export const remove = remove_impl;
 export const writeAtomicFile = writeAtomicFile_impl;
 
 export default {
+    clean,
     copy,
     generateTemporaryPathName,
     hashFile,
